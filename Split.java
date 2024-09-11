@@ -22,7 +22,7 @@ public class Split {
                 System.out.print(c);
             else if (Character.isDigit(c)) {
                 int a = Character.getNumericValue(c);
-                for (j = 0; j < a; j++) {
+                for (j = 0; j < a - 1; j++) {
                     System.out.print(input.charAt(i - 1));
                 }
 
